@@ -22,7 +22,6 @@ from toets_generator import ToetsGenerator
 
 st.set_page_config(
     page_title="Boom Tekst Omzetter",
-    page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -115,10 +114,10 @@ def get_direction(source, target, mode='avi'):
 # =============================================================================
 
 with st.sidebar:
-    st.markdown("## 📚 Tekst Omzetter")
+    st.markdown("Tekst Omzetter")
     st.markdown("---")
     
-    mode = st.radio("Modus:", ["🔤 AVI", "📖 Referentie"], on_change=reset_toets)
+    mode = st.radio("Modus:", ["AVI", "Referentie"], on_change=reset_toets)
     
     st.markdown("---")
     api_key = st.text_input("API Key", type="password", value=os.environ.get("ANTHROPIC_API_KEY", ""))
@@ -128,7 +127,7 @@ with st.sidebar:
 # =============================================================================
 
 if "AVI" in mode:
-    st.markdown('<p class="main-header">🔤 AVI Tekst Omzetter</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">AVI Tekst Omzetter</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Technisch lezen - analyseer en converteer naar AVI-niveau</p>', unsafe_allow_html=True)
     
     tab1, tab2 = st.tabs(["Conversie", "Info"])
@@ -190,13 +189,13 @@ else:
     if st.session_state.toets_fase == 'maken':
         # === TOETS MAKEN ===
         toets = st.session_state.toets_data
-        st.markdown(f'<p class="main-header">📝 Toets - {toets["niveau"]}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p class="main-header"Toets - {toets["niveau"]}</p>', unsafe_allow_html=True)
         
         if st.button("← Terug"):
             reset_toets()
             st.rerun()
         
-        with st.expander("📄 Tekst bekijken"):
+        with st.expander("Tekst bekijken"):
             st.write(toets['tekst'])
         
         st.markdown("---")
@@ -222,7 +221,7 @@ else:
             open_answers[i] = st.text_area(f"o{i}", key=f"open{i}", height=80, label_visibility="collapsed")
         
         st.markdown("---")
-        if st.button("✅ Indienen", type="primary", use_container_width=True):
+        if st.button("Indienen", type="primary", use_container_width=True):
             with st.spinner("Nakijken en feedback genereren..."):
                 gen = ToetsGenerator(api_key)
                 rapport = gen.genereer_rapport(toets, mc_answers, open_answers)
@@ -233,7 +232,7 @@ else:
     elif st.session_state.toets_fase == 'rapport':
         # === RAPPORT ===
         rapport = st.session_state.rapport
-        st.markdown(f'<p class="main-header">📊 Rapport - {rapport["niveau"]}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p class="main-header">Rapport - {rapport["niveau"]}</p>', unsafe_allow_html=True)
         
         if st.button("← Nieuwe toets"):
             reset_toets()
