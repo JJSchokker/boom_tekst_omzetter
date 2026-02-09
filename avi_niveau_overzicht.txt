@@ -1,0 +1,155 @@
+# AVI Niveau Parameters Overzicht
+
+## BILT-score ranges per niveau
+
+| Niveau | BILT-range | Gem. woordlengte | % Freq. woorden | Gem. zinslengte | WPM |
+|--------|------------|------------------|-----------------|-----------------|-----|
+| M3     | 54 - 59    | 3,0 - 3,5        | 88 - 92%        | 5 - 6           | 45  |
+| E3     | 59 - 62    | 3,3 - 3,7        | 85 - 89%        | 6 - 7           | 56  |
+| M4     | 62 - 64    | 3,6 - 4,0        | 82 - 86%        | 7 - 8           | 65  |
+| E4     | 64 - 66    | 3,9 - 4,2        | 80 - 84%        | 7 - 9           | 68  |
+| M5     | 64 - 66    | 4,0 - 4,3        | 78 - 82%        | 8 - 10          | 83  |
+| E5     | 66 - 68    | 4,2 - 4,5        | 76 - 80%        | 9 - 11          | 89  |
+| M6     | 68 - 70    | 4,4 - 4,6        | 74 - 78%        | 10 - 12         | 96  |
+| E6     | 70 - 72    | 4,5 - 4,8        | 72 - 76%        | 10 - 13         | 110 |
+| M7     | 72 - 74    | 4,6 - 4,9        | 70 - 75%        | 11 - 14         | 116 |
+| E7     | 74 - 75    | 4,7 - 5,0        | 69 - 74%        | 12 - 15         | 117 |
+| Plus   | 75 - 80    | 4,8 - 5,2        | 68 - 74%        | 12 - 16         | 118 |
+
+## Woordtype-beperkingen per niveau
+
+### M3 - Zeer beperkt
+- Alleen éénlettergrepige woorden (mkm-structuur)
+- Geen sch-, -ng, -nk
+- Geen tweelettergrepige woorden
+
+### E3 - Licht uitgebreid
+- Toevoeging: sch-, -ng, -nk
+- Eenvoudige tweelettergrepige woorden (mama, papa)
+- Medeklinkercombinaties aan begin/eind
+
+### M4 - Uitgebreid
+- Voorvoegsels be-, ge-
+- Open/gesloten lettergrepen
+- Verkleinwoorden (-je)
+- Meervouden (-en, -s)
+
+### E4 - Verder uitgebreid
+- Voorvoegsels ver-, ont-
+- Achtervoegsels -lijk, -ig
+- Drielettergrepige woorden
+- Samenstellingen (eenvoudig)
+
+### M5 - Ruim
+- Woorden met x (/ks/)
+- Woorden met -tie (/si/)
+- Woorden met c als /k/
+- Complexere samenstellingen
+
+### E5 - Ruimer
+- Leenwoorden met eau, é, è
+- Woorden met /ch/ als /sj/
+- Woorden eindigend op -ge als /zje/
+
+### M6 - Bijna alles
+- Woorden met trema (geïnteresseerd)
+- Minder frequente leenwoorden
+- Woorden eindigend op -ele
+
+### E6 t/m Plus - Geen beperkingen
+- Alle woordtypen toegestaan
+- Uitsluitend BILT-score bepalend
+
+## Zinskenmerken per niveau
+
+### M3
+- Max 5-6 woorden per zin
+- Alleen enkelvoudige zinnen
+- Geen bijzinnen
+- Eén zin per regel
+
+### E3
+- Max 7 woorden per zin
+- Nevenschikking met "en"
+- Nog geen echte bijzinnen
+
+### M4
+- Max 8 woorden per zin
+- Nevenschikking uitgebreid
+- Eenvoudige bijzinnen (dat, want)
+
+### E4
+- Max 9 woorden per zin
+- Betrekkelijke bijzinnen (die, dat)
+- Vraagzinnen met vraagwoord
+
+### M5
+- Max 10 woorden gemiddeld
+- Één bijzin per zin
+- Directe rede volledig
+
+### E5 - Plus
+- Geen beperkingen
+- Complexiteit via BILT-score
+
+## Doelwoorden per leestijd
+
+| Niveau | 1 min | 2 min | 3 min |
+|--------|-------|-------|-------|
+| M3     | 45    | 80    | 107   |
+| E3     | 56    | 101   | 135   |
+| M4     | 65    | 117   | 156   |
+| E4     | 68    | 123   | 164   |
+| M5     | 83    | 152   | 206   |
+| E5     | 89    | 164   | 224   |
+| M6     | 96    | 179   | 247   |
+| E6     | 110   | 205   | 282   |
+| M7     | 116   | 218   | 302   |
+| E7     | 117   | 220   | 306   |
+| Plus   | 118   | 224   | 306   |
+
+*Tempo-behoud: 2e minuut 80-90%, 3e minuut 60-70% (afhankelijk van niveau)*
+
+## Prompt-structuur template
+
+Elke niveau-specifieke prompt bevat:
+
+1. **Header**
+   - Doelniveau naam en beschrijving
+   - BILT-score range
+
+2. **Tekstkenmerken**
+   - Woordtypen (wat wel/niet mag)
+   - Zinskenmerken (lengte, structuur)
+   - Frequentie-eisen (percentage)
+   - Tekstopmaak
+
+3. **Formule-parameters**
+   - Concrete BILT-berekening targets
+   - Gemiddelde woordlengte doel
+   - Percentage frequente woorden doel
+
+4. **Voorbeeldteksten** (2-3 stuks)
+   - Representatieve tekst voor dit niveau
+   - Met berekende statistieken
+   - Verschillende teksttypen indien relevant
+
+5. **Conversie-instructies**
+   - Stapsgewijze aanpak
+   - Concrete woordvervangingen
+   - Zinsstructuur-aanpassingen
+
+6. **Woordenlijst**
+   - Niveau-geschikte woorden per categorie
+   - Zelfstandige naamwoorden
+   - Werkwoorden
+   - Bijvoeglijk naamwoorden
+   - Functiewoorden
+
+7. **Verboden/te vermijden**
+   - Expliciete lijst wat niet mag
+   - Valkuilen voor dit niveau
+
+8. **Output format**
+   - Gewenste opmaak resultaat
+   - Verplichte statistieken

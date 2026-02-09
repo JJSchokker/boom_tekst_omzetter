@@ -1,0 +1,156 @@
+# AVI-M7 Tekstconversie Prompt
+
+## Doelniveau
+AVI-M7 (Midden groep 7) - Voor gevorderde lezers met goed ontwikkeld vocabulaire.
+
+## BILT-score range
+**Doelrange: 72 - 74**
+
+## Tekstkenmerken AVI-M7
+
+### Woordtypen
+- **Alle woordtypen zijn toegestaan**
+- Uitsluitend de BILT-score is bepalend
+- Rijker vocabulaire dan E6
+- Langere en minder frequente woorden
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 11-14 woorden
+- Geen beperkingen op zinskenmerken
+- Complexe zinnen met meerdere bijzinnen
+- Variatie in register en stijl
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 70-75%**
+- Breed vocabulaire
+- Vaktermen indien contextondersteund
+
+### Tekstopmaak
+- Volledige alinea's
+- Alinea's van 6-9 zinnen
+- Alle teksttypen
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 72-74 betekent dit:
+- Gemiddelde woordlengte: ~4,6-4,9 letters
+- Percentage frequente woorden: ~70-75%
+
+## Voorbeeldteksten AVI-M7
+
+### Voorbeeld 1: "Het incident"
+```
+Mik roept geërgerd: "Wat is er aan de hand?"
+Gelukkig pakt de chauffeur direct de microfoon om uitleg te geven.
+Er was bijna een aalscholver tegen de voorruit gebotst.
+Het dier vloog plotseling vanuit het niets de weg over.
+De chauffeur moest wel keihard remmen om een botsing te voorkomen.
+Iedereen in de bus zucht opgelucht als blijkt dat alles goed is.
+De aalscholver is alweer verdwenen in de verte.
+```
+Kenmerken: gem. woordlengte 4,7 | %freq 73% | BILT ~73
+
+### Voorbeeld 2: "De ontdekking"
+```
+Een ijsdrankje bestaat nog steeds, merkt Puk op.
+"Klopt," antwoordt Sam, "maar daar waren ze niet naar op zoek."
+Hoewel het ijs nog niet fantastisch was, ontstonden er wel smaken.
+De eerste ijsmakers experimenteerden met verschillende ingrediënten.
+Ze ontdekten dat suiker en fruit de smaak verbeterden.
+Vanille werd al snel de populairste smaak wereldwijd.
+De ontwikkeling van het moderne ijsje had officieel ingezet.
+```
+Kenmerken: gem. woordlengte 4,8 | %freq 72% | BILT ~73
+
+### Voorbeeld 3: "De presentatie"
+```
+Vandaag moet Lisa een presentatie houden voor de klas.
+Ze heeft wekenlang onderzoek gedaan naar klimaatverandering.
+Haar klasgenoten luisteren aandachtig naar haar verhaal.
+Lisa legt uit hoe de temperatuur op aarde langzaam stijgt.
+Ze toont grafieken en foto's om haar punten te onderbouwen.
+Na afloop krijgt ze veel vragen van nieuwsgierige medeleerlingen.
+De juf is onder de indruk van haar grondige voorbereiding.
+Lisa voelt zich trots op wat ze heeft gepresteerd.
+```
+Kenmerken: gem. woordlengte 4,7 | %freq 74% | BILT ~72
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Bepaal huidige BILT-score
+- Identificeer kansen voor verrijking
+
+### Stap 2: Verrijk vocabulaire
+- Gebruik preciezere, specifiekere woorden
+- Voeg nuance toe met bijvoeglijke naamwoorden
+- Voorbeelden:
+  - "zei" → "antwoordde", "merkte op", "verklaarde"
+  - "mooi" → "prachtig", "schitterend", "indrukwekkend"
+  - "snel" → "bliksemsnel", "razendsnel"
+  - "onderzoek" → passend voor dit niveau
+
+### Stap 3: Complexificeer structuur
+- Bouw langere, informatierijke zinnen
+- Gebruik verbindingswoorden voor cohesie
+- Voorbeeld: "Ze deed onderzoek. Het ging over klimaat." → "Ze heeft wekenlang onderzoek gedaan naar klimaatverandering."
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 4,6-4,9)
+- Bereken percentage frequente woorden (doel: 70-75%)
+- Pas aan indien BILT buiten range 72-74 valt
+
+## Woordkeuze-strategie M7
+
+### Balanceren BILT-score
+Als BILT te laag (< 72):
+- Vervang frequente woorden door minder frequente synoniemen
+- Gebruik langere woordvormen
+- Voorbeelden: "zei" → "verklaarde", "goed" → "uitstekend"
+
+Als BILT te hoog (> 74):
+- Vervang zeer lange woorden door kortere alternatieven
+- Gebruik meer alledaagse woorden
+- Voorbeelden: "extraordinair" → "bijzonder"
+
+## Woordenlijst AVI-M7 (selectie)
+
+### Zelfstandige naamwoorden
+incident, botsing, voorruit, microfoon, uitleg
+ontdekking, ingrediënt, ontwikkeling, experiment
+presentatie, onderzoek, klimaatverandering, grafiek
+medeleerling, voorbereiding, prestatie
+
+### Werkwoorden
+experimenteren, ontdekken, verbeteren, onderbouwen
+presenteren, onderzoeken, stijgen, verdwijnen
+remmen, voorkomen, inzetten, presteren
+
+### Bijvoeglijk naamwoorden
+geërgerd, opgelucht, fantastisch, populair
+aandachtig, nieuwsgierig, grondig, officieel
+indrukwekkend, schitterend, trots
+
+### Bijwoorden
+plotseling, bliksemsnel, wekenlang, wereldwijd
+officieel, langzaam, aandachtig, grondige
+
+## Aandachtspunten M7
+- Stuur alleen op BILT-score
+- Gebruik rijker vocabulaire dan E6
+- Houd tekst toegankelijk
+- Balanceer informatiedichtheid
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
+   - Aantal zinnen

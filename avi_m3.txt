@@ -1,0 +1,134 @@
+# AVI-M3 Tekstconversie Prompt
+
+## Doelniveau
+AVI-M3 (Midden groep 3) - Het laagste AVI-niveau voor beginnende lezers.
+
+## BILT-score range
+**Doelrange: 54 - 59** (lager = makkelijker)
+
+## Tekstkenmerken AVI-M3
+
+### Woordtypen (STRIKT)
+- Alleen éénlettergrepige woorden (mkm-structuur: medeklinker-klinker-medeklinker)
+- Voorbeelden geldige woorden: mus, tom, kat, hek, zit, ben, wil, zeg, dat, het, een, met
+- Toegestane uitbreidingen: mk, km, mmk, mkm, mkmm
+- GEEN tweelettergrepige woorden
+- GEEN woorden met sch-, -ng of medeklinkercombinaties (die zijn E3)
+
+### Zinskenmerken
+- Maximaal 5-6 woorden per zin
+- Eenvoudige zinsstructuur: onderwerp + werkwoord (+ lijdend voorwerp)
+- Geen bijzinnen
+- Geen samengestelde zinnen
+- Directe rede mag, maar kort: "zeg tom" of "zei de mus"
+
+### Frequentie-eisen
+- **Percentage frequente woorden: ≥ 90%**
+- Alleen woorden uit de top 1000 meest frequente Nederlandse woorden
+- Vermijd zeldzame of onbekende woorden
+
+### Tekstopmaak
+- Één zin per regel (bevordert leesbaarheid voor beginners)
+- Korte alinea's van 3-4 zinnen
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 54-59 betekent dit:
+- Gemiddelde woordlengte: ~3,0-3,5 letters
+- Percentage frequente woorden: ~88-92%
+
+## Voorbeeldteksten AVI-M3
+
+### Voorbeeld 1: "De mus"
+```
+de mus zit op een tak.
+tom wil de mus wel zien.
+kom dan, zegt tom.
+kijk, daar zit de mus!
+de mus piept zacht.
+wat een lief beest.
+```
+Kenmerken: gem. woordlengte 3,1 | %freq 94% | BILT ~56
+
+### Voorbeeld 2: "Ik ben Mik"
+```
+ik ben mik.
+ik zit in de klas.
+juf zegt: pak je boek.
+ik pak het boek.
+het is een leuk boek.
+ik lees het graag.
+```
+Kenmerken: gem. woordlengte 2,9 | %freq 96% | BILT ~54
+
+### Voorbeeld 3: "De bal"
+```
+puk heeft een bal.
+de bal is rood.
+puk gooit de bal.
+de bal valt in de tuin.
+waar is de bal?
+daar, bij de boom!
+```
+Kenmerken: gem. woordlengte 3,0 | %freq 95% | BILT ~55
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden en zinnen
+- Identificeer te complexe woorden (tweelettergrepig, laagfrequent)
+
+### Stap 2: Vereenvoudig woorden
+- Vervang tweelettergrepige woorden door éénlettergrepige synoniemen
+- Vervang laagfrequente woorden door hoogfrequente alternatieven
+- Voorbeelden:
+  - "plotseling" → "toen" of splits in twee zinnen
+  - "chauffeur" → NIET GEBRUIKEN op dit niveau
+  - "fantastisch" → "leuk" of "fijn"
+  - "kinderen" → "kind" (enkelvoud) of omschrijven
+
+### Stap 3: Verkort zinnen
+- Splits lange zinnen in meerdere korte zinnen
+- Verwijder bijvoeglijke naamwoorden waar mogelijk
+- Houd alleen essentiële informatie
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte
+- Bereken percentage frequente woorden
+- Pas aan indien BILT buiten range 54-59 valt
+
+## Verboden elementen voor AVI-M3
+- Woorden met sch- (school, schip)
+- Woorden met -ng (lang, bang)
+- Woorden met -nk (bank, dank)
+- Tweelettergrepige woorden (mama, papa → gebruik "mam", "pap")
+- Samengestelde woorden
+- Bijzinnen
+- Lijdende vorm
+- Lange bijvoeglijke naamwoorden
+
+## Woordenlijst AVI-M3 (selectie hoogfrequent)
+
+### Zelfstandige naamwoorden
+mus, tak, boom, bal, hond, kat, vis, man, pop, bed, zon, maan, boot, huis, deur, raam, stoel, tafel
+
+### Werkwoorden  
+is, ben, zit, lig, loop, ren, pak, geef, zeg, kijk, hoor, zie, wil, kan, mag, moet, doe, ga
+
+### Bijwoorden/bijvoeglijk
+groot, klein, rood, blauw, goed, fijn, leuk, lief, hier, daar, nu, dan, wel, niet, ook
+
+### Voorzetsels/voegwoorden
+in, op, aan, bij, met, van, naar, en, of, maar
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (één zin per regel)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden  
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
