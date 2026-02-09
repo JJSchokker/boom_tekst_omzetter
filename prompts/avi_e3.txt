@@ -1,0 +1,152 @@
+# AVI-E3 Tekstconversie Prompt
+
+## Doelniveau
+AVI-E3 (Eind groep 3) - Voor lezers die AVI-M3 beheersen en klaar zijn voor lichte uitbreiding.
+
+## BILT-score range
+**Doelrange: 59 - 62**
+
+## Tekstkenmerken AVI-E3
+
+### Woordtypen (toegestaan)
+- Alle M3-woorden (éénlettergrepig, mkm-structuur)
+- **Nieuw:** woorden met sch- (school, schip, schaap)
+- **Nieuw:** woorden met -ng (lang, bang, ring, zang)
+- **Nieuw:** woorden met -nk (bank, dank, drink)
+- **Nieuw:** eenvoudige tweelettergrepige woorden (mama, papa, baby)
+- Medeklinkercombinaties aan begin: bl-, br-, dr-, fl-, fr-, gl-, gr-, kl-, kr-, pl-, pr-, sl-, sm-, sn-, sp-, st-, tr-, vl-, vr-, zw-
+- Medeklinkercombinaties aan eind: -lf, -lk, -lm, -lp, -ls, -lt, -mp, -ms, -nd, -ns, -nt, -rf, -rg, -rk, -rm, -rn, -rp, -rs, -rt
+
+### Zinskenmerken
+- Maximaal 6-7 woorden per zin
+- Enkelvoudige zinnen
+- Nevenschikking met "en" toegestaan
+- Nog geen echte bijzinnen
+- Directe rede in eenvoudige vorm
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 85-89%**
+- Woorden uit top 1500 frequentielijst
+- Nieuwe woorden moeten contextondersteund zijn
+
+### Tekstopmaak
+- Één à twee zinnen per regel
+- Korte alinea's van 3-5 zinnen
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 59-62 betekent dit:
+- Gemiddelde woordlengte: ~3,3-3,7 letters
+- Percentage frequente woorden: ~85-89%
+
+## Voorbeeldteksten AVI-E3
+
+### Voorbeeld 1: "Op school"
+```
+ik ga naar school.
+mijn juf is lief.
+ze heet juf ans.
+wij zingen een lied.
+het is een lang lied.
+ik zing graag mee.
+na school ga ik naar huis.
+```
+Kenmerken: gem. woordlengte 3,4 | %freq 88% | BILT ~60
+
+### Voorbeeld 2: "De hond"
+```
+flip is mijn hond.
+hij is bruin en groot.
+flip rent door de tuin.
+hij blaft naar een kat.
+de kat schrikt en rent weg.
+flip kwispelt blij.
+ik geef hem een koek.
+```
+Kenmerken: gem. woordlengte 3,5 | %freq 87% | BILT ~61
+
+### Voorbeeld 3: "Bang in het bos"
+```
+tom loopt in het bos.
+het is stil en donker.
+tom hoort iets.
+wat is dat?
+hij is een beetje bang.
+dan ziet hij een konijn.
+tom lacht en loopt door.
+```
+Kenmerken: gem. woordlengte 3,3 | %freq 89% | BILT ~59
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden en zinnen
+- Identificeer te complexe woorden voor E3-niveau
+
+### Stap 2: Vereenvoudig woorden
+- Vervang drielettergrepige woorden door kortere alternatieven
+- Gebruik nu wel sch-, -ng, -nk woorden
+- Voorbeelden:
+  - "plotseling" → "dan" of "opeens"
+  - "fantastisch" → "fijn" of "leuk"
+  - "kinderen" → "kind" (enkelvoud)
+  - "spelletje" → "spel"
+
+### Stap 3: Pas zinslengte aan
+- Splits zinnen langer dan 7 woorden
+- Gebruik "en" om korte zinnen te verbinden
+- Houd structuur eenvoudig
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 3,3-3,7)
+- Bereken percentage frequente woorden (doel: 85-89%)
+- Pas aan indien BILT buiten range 59-62 valt
+
+## Nieuw toegestaan t.o.v. M3
+
+### Woordstructuren
+- sch + mkm (schip, school)
+- mkm + ng (ring, bang, lang)
+- mkm + nk (bank, dank)
+- Tweelettergrepig met herhaling (mama, papa)
+- Medeklinkerclusters aan begin/eind
+
+### Voorbeeldwoorden nieuw
+school, schaap, schoen, schrijf, schrik
+lang, bang, ring, zing, spring, bring
+bank, dank, denk, drink, blank
+mama, papa, baby, juffrouw
+
+## Woordenlijst AVI-E3 (selectie)
+
+### Zelfstandige naamwoorden
+school, juf, klas, bank, ring, hand, land, strand, hond, schip, schaap, schoen, bos, park
+
+### Werkwoorden
+spring, zing, breng, drink, denk, schrijf, schrikt, blaft, rent, loopt, speelt, zingt
+
+### Bijvoeglijk naamwoorden
+lang, bang, blank, sterk, groot, klein, bruin, groen, blauw, stil, donker
+
+### Bijwoorden/overig
+graag, vaak, snel, hard, zacht, opeens, straks, eerst, dan
+
+## Verboden elementen voor AVI-E3
+- Drielettergrepige woorden (behalve zeer frequente zoals "kinderen")
+- Voorvoegsels be-, ge-, ver-, ont-
+- Achtervoegsels -lijk, -heid, -ing
+- Samengestelde woorden
+- Bijzinnen met "omdat", "wanneer", "hoewel"
+- Passieve constructies
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (één à twee zinnen per regel)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte

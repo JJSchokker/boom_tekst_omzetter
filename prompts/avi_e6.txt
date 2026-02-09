@@ -1,0 +1,153 @@
+# AVI-E6 Tekstconversie Prompt
+
+## Doelniveau
+AVI-E6 (Eind groep 6) - Voor gevorderde lezers; vanaf hier bepaalt alleen de BILT-score het niveau.
+
+## BILT-score range
+**Doelrange: 70 - 72**
+
+## Tekstkenmerken AVI-E6
+
+### Woordtypen
+- **Alle woordtypen zijn toegestaan**
+- Voor het AVI-niveau is uitsluitend de BILT-score bepalend
+- Geen beperkingen meer op specifieke woordstructuren
+- Focus op balans tussen woordlengte en frequentie
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 10-13 woorden
+- Geen beperkingen op zinskenmerken
+- Alle zinstypen toegestaan
+- Complexe structuren mogelijk
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 72-76%**
+- Breed vocabulaire toegestaan
+- Context ondersteunt minder frequente woorden
+
+### Tekstopmaak
+- Volledige alinea's
+- Alinea's van 6-8 zinnen
+- Alle teksttypen mogelijk
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 70-72 betekent dit:
+- Gemiddelde woordlengte: ~4,5-4,8 letters
+- Percentage frequente woorden: ~72-76%
+
+## Voorbeeldteksten AVI-E6
+
+### Voorbeeld 1: "De geschiedenis van ijs"
+```
+De minder rijke mensen konden pas later kennismaken met ijs.
+Dat gebeurde in een ijscafé waar iedereen welkom was.
+Het ijs bestond toen uit melk, room, ei en boter.
+Het begon steeds meer op het roomijs te lijken dat wij kennen.
+De smaken werden ook gevarieerder naarmate de tijd vorderde.
+Vanille en chocolade waren de eerste populaire smaken.
+Later kwamen daar aardbeien en andere fruitsmaken bij.
+```
+Kenmerken: gem. woordlengte 4,6 | %freq 74% | BILT ~71
+
+### Voorbeeld 2: "Het natuurgebied"
+```
+Dat helpt, want Sas lijkt door hun enthousiasme te ontdooien.
+Ze zegt genietend: "Dit is een ideale route als je van natuur houdt."
+Het landschap strekt zich uit tot aan de horizon.
+De duinen glanzen goudgeel in het licht van de ondergaande zon.
+Verschillende vogelsoorten vliegen krijsend over hun hoofden.
+Maar dan remt de bus plotseling heel hard.
+Iedereen schrikt en kijkt verbaasd naar voren.
+```
+Kenmerken: gem. woordlengte 4,7 | %freq 73% | BILT ~71
+
+### Voorbeeld 3: "De wedstrijd"
+```
+De voetbalwedstrijd nadert zijn spannende ontknoping.
+Beide teams hebben evenveel doelpunten gescoord.
+De supporters juichen en moedigen hun favorieten aan.
+In de laatste minuut krijgt onze ploeg een vrije trap.
+De spanning is om te snijden in het stadion.
+De speler neemt een aanloop en schiet keihard.
+De bal vliegt langs de keeper en belandt in het net.
+Het publiek barst los in een oorverdovend gejuich.
+```
+Kenmerken: gem. woordlengte 4,8 | %freq 72% | BILT ~72
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Bepaal huidige BILT-score
+- Focus op balans woordlengte/frequentie
+
+### Stap 2: Optimaliseer woordkeuze
+- Alle woordtypen zijn nu beschikbaar
+- Kies woorden die passen bij de context
+- Let op de balans voor de juiste BILT-score
+- Voorbeelden:
+  - "spectaculair" mag nu
+  - "ontknoping" is geschikt
+  - "oorverdovend" past binnen dit niveau
+
+### Stap 3: Varieer zinsstructuur
+- Mix van korte en langere zinnen
+- Gebruik verschillende zinstypen voor levendigheid
+- Bouw spanning op met zinsvariatie
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 4,5-4,8)
+- Bereken percentage frequente woorden (doel: 72-76%)
+- Pas aan indien BILT buiten range 70-72 valt
+
+## Woordkeuze-strategie E6
+
+### Balanceren BILT-score
+Als BILT te laag (< 70):
+- Vervang korte woorden door langere synoniemen
+- Gebruik minder frequente woorden
+- Voorbeelden: "mooi" → "prachtig", "snel" → "razendsnel"
+
+Als BILT te hoog (> 72):
+- Vervang lange woorden door kortere alternatieven
+- Gebruik meer frequente woorden
+- Voorbeelden: "oorverdovend" → "hard", "ontknoping" → "einde"
+
+## Woordenlijst AVI-E6 (selectie)
+
+### Zelfstandige naamwoorden
+ontknoping, spanning, horizon, landschap, vogelsoort
+wedstrijd, stadion, supporter, doelpunt, vrije trap
+geschiedenis, ontwikkeling, gebeurtenis, traditie
+
+### Werkwoorden
+naderen, ontdooien, uitstrekken, glanzen, krijsen
+juichen, aanmoedigen, scoren, belanden, losbarsten
+
+### Bijvoeglijk naamwoorden
+spannend, gevarieerd, populair, oorverdovend
+goudgeel, ondergaand, verbaasd, razend
+
+### Bijwoorden
+plotseling, kennelijk, naarmate, enthousiast
+oorverdovend, razendsnel, buitengewoon
+
+## Aandachtspunten E6
+- Woordtype-beperkingen gelden niet meer
+- Stuur alleen op BILT-score
+- Houd tekst toegankelijk ondanks complexer vocabulaire
+- Context moet ondersteuning bieden
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
+   - Aantal zinnen

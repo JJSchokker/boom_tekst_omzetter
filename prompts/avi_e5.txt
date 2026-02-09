@@ -1,0 +1,156 @@
+# AVI-E5 Tekstconversie Prompt
+
+## Doelniveau
+AVI-E5 (Eind groep 5) - Voor gevorderde lezers die klaar zijn voor leenwoorden.
+
+## BILT-score range
+**Doelrange: 66 - 68**
+
+## Tekstkenmerken AVI-E5
+
+### Woordtypen (toegestaan)
+- Alle woorden uit lagere niveaus (M3 t/m M5)
+- **Nieuw:** woorden met klinkerreeks (idee, bioloʻog, pianoo)
+- **Nieuw:** woorden met /ch/ als /sj/ (chauffeur, machine, brochure)
+- **Nieuw:** woorden eindigend op -ge als /zje/ (bagage, garage, massage)
+- **Nieuw:** leenwoorden met eau (cadeau, bureau, niveau)
+- **Nieuw:** leenwoorden met é of è (café, cliché, crème)
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 9-11 woorden
+- Geen beperkingen meer op zinskenmerken
+- Complexere bijzinnen toegestaan
+- Meervoudig samengestelde zinnen mogelijk
+- Variatie in zinsopbouw
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 76-80%**
+- Woorden uit top 3500 frequentielijst
+- Leenwoorden die in Nederlands ingeburgerd zijn
+
+### Tekstopmaak
+- Normale alinea-indeling
+- Alinea's van 5-7 zinnen
+- Langere passages mogelijk
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 66-68 betekent dit:
+- Gemiddelde woordlengte: ~4,2-4,5 letters
+- Percentage frequente woorden: ~76-80%
+
+## Voorbeeldteksten AVI-E5
+
+### Voorbeeld 1: "De chauffeur"
+```
+Mik en Puk kijken beschaamd en hebben spijt van hun actie.
+Ze schieten rechtop in hun stoel.
+"Je hebt gelijk, Sas," zegt Puk zacht.
+De chauffeur boft dat hij hier elke dag mag rijden.
+Het uitzicht is werkelijk prachtig te noemen.
+De zon schijnt op de groene heuvels in de verte.
+```
+Kenmerken: gem. woordlengte 4,3 | %freq 78% | BILT ~67
+
+### Voorbeeld 2: "Het cadeau"
+```
+Lisa krijgt een cadeau van haar oma.
+Het zit in een grote doos met een mooie strik.
+"Wat zou erin zitten?" vraagt ze nieuwsgierig.
+Ze scheurt het papier eraf en opent de doos.
+Er zit een prachtige jurk in met een bijpassende tas.
+"Dank je wel, oma!" roept Lisa enthousiast.
+Ze rent naar haar kamer om de jurk te passen.
+```
+Kenmerken: gem. woordlengte 4,2 | %freq 79% | BILT ~66
+
+### Voorbeeld 3: "In de garage"
+```
+Papa werkt in de garage aan zijn oude auto.
+De machine maakt veel lawaai als hij hem start.
+Ik breng hem een kop koffie uit het café op de hoek.
+"Bedankt," zegt hij terwijl hij zijn handen afveegt.
+De auto is bijna klaar voor de vakantie.
+We gaan volgende week naar het zuiden rijden.
+Ik heb er echt heel veel zin in.
+```
+Kenmerken: gem. woordlengte 4,4 | %freq 77% | BILT ~68
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Identificeer woorden boven E5-niveau (zeer complexe leenwoorden)
+
+### Stap 2: Pas woordkeuze aan
+- Gebruik nu leenwoorden met eau, é, è
+- Woorden met ch als /sj/ zijn nu toegestaan
+- Voorbeelden aanpassingen:
+  - "automobiel" → "auto" (te formeel)
+  - "extraordinair" → "bijzonder" of "heel mooi"
+  - "contempleren" → "nadenken over"
+  - behoud: chauffeur, cadeau, garage, café
+
+### Stap 3: Varieer zinsstructuur
+- Mix korte en langere zinnen
+- Gebruik verschillende zinstypen
+- Voorbeeld: "Hij reed. Het was mooi weer." → "Hij reed terwijl de zon scheen over de heuvels."
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 4,2-4,5)
+- Bereken percentage frequente woorden (doel: 76-80%)
+- Pas aan indien BILT buiten range 66-68 valt
+
+## Nieuw toegestaan t.o.v. M5
+
+### Woordstructuren
+- Leenwoorden met eau (cadeau, bureau, niveau, plateau)
+- Leenwoorden met é/è (café, cliché, crème, scène)
+- Woorden met ch=/sj/ (chauffeur, machine, brochure)
+- Woorden op -ge=/zje/ (garage, bagage, massage, etage)
+- Klinkerreeksen (idee, museum, piano)
+
+### Voorbeeldwoorden nieuw
+cadeau, bureau, niveau, plateau, chateau
+café, crème, scène, carré
+chauffeur, machine, brochure, douche
+garage, bagage, massage, etage
+idee, museum, piano, video
+
+## Woordenlijst AVI-E5 (selectie)
+
+### Zelfstandige naamwoorden
+cadeau, bureau, niveau, garage, bagage, machine
+café, crème, idee, museum, piano, video
+chauffeur, brochure, etage, massage
+
+### Werkwoorden
+douchen, parkeren, functioneren, reserveren
+telefoneren, organiseren, controleren
+
+### Bijvoeglijk naamwoorden
+speciaal, normaal, centraal, nationaal
+uniek, antiek, romantisch, fantastisch
+
+### Bijwoorden
+absoluut, precies, direct, exact, perfect
+
+## Verboden/te vermijden voor AVI-E5
+- Zeer zeldzame leenwoorden
+- Woorden met trema (die komen bij M6)
+- Wetenschappelijke vaktermen
+- Complexe abstracte begrippen
+- Zeer lange samenstellingen
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
+   - Aantal zinnen

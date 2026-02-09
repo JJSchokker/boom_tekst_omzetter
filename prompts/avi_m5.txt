@@ -1,0 +1,152 @@
+# AVI-M5 Tekstconversie Prompt
+
+## Doelniveau
+AVI-M5 (Midden groep 5) - Gemiddeld leesniveau voor gevorderde lezers in groep 5.
+
+## BILT-score range
+**Doelrange: 64 - 66** 
+
+## Tekstkenmerken AVI-M5
+
+### Woordtypen (toegestaan)
+- Alle woordtypen uit lagere niveaus (M3, E3, M4, E4)
+- Woorden met open en gesloten lettergrepen in combinatie
+- Woorden met /ks/ gespeld als x (taxi, luxe)
+- Woorden met -tie uitgesproken als /si/ (actie, sectie)
+- Woorden met c als /k/ vóór a, o, u (café, code)
+- Tweelettergrepige en drielettergrepige woorden toegestaan
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 8-10 woorden
+- Enkelvoudige bijzinnen toegestaan
+- Samengestelde zinnen met "en", "maar", "want" toegestaan
+- Directe rede met correcte interpunctie
+- Betrekkelijke bijzinnen (die, dat, wie) sparingly
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 78-82%**
+- Woorden uit top 3000 frequentielijst
+- Enkele minder frequente woorden toegestaan indien contextondersteund
+
+### Tekstopmaak
+- 2-3 zinnen per regel mogelijk
+- Alinea's van 4-6 zinnen
+- Dialoog met aanhalingstekens
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 64-66 betekent dit:
+- Gemiddelde woordlengte: ~4,0-4,3 letters
+- Percentage frequente woorden: ~78-82%
+
+## Voorbeeldteksten AVI-M5
+
+### Voorbeeld 1: "De busrit"
+```
+Mik en Puk zitten achter in de bus. Ze kijken naar buiten.
+Het is een mooie dag en de zon schijnt fel.
+Sas zit naast hen en leest een boek.
+"Kijk eens naar die vogels," zegt Mik.
+Puk knikt en wijst naar de lucht.
+Er vliegen wel tien vogels langs het raam.
+```
+Kenmerken: gem. woordlengte 4,1 | %freq 80% | BILT ~65
+
+### Voorbeeld 2: "Op het strand"
+```
+Tijs rent over het strand naar de zee.
+De golven zijn hoog vandaag.
+Hij springt in het water en lacht hard.
+"Kom je ook?" roept hij naar zijn zus.
+Lisa twijfelt even, maar dan rent ze mee.
+Samen spelen ze in de branding tot de zon onder gaat.
+```
+Kenmerken: gem. woordlengte 4,2 | %freq 79% | BILT ~65
+
+### Voorbeeld 3: "De bibliotheek"
+```
+Emma loopt door de gang van de bibliotheek.
+Ze zoekt een boek over dieren in de jungle.
+De juf heeft gezegd dat ze daar iets over moet lezen.
+Bij de kast met dierenboeken blijft ze staan.
+Er zijn zoveel boeken dat ze niet kan kiezen.
+Uiteindelijk pakt ze er drie mee naar de tafel.
+```
+Kenmerken: gem. woordlengte 4,0 | %freq 81% | BILT ~64
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Identificeer woorden boven M5-niveau
+- Check zinslengte (te lang = splitsen)
+
+### Stap 2: Pas woordkeuze aan
+- Vervang zeer complexe woorden door M5-alternatieven
+- Behoud variatie in woordlengte (mix van kort en middellang)
+- Voorbeelden aanpassingen:
+  - "spectaculair" → "bijzonder" of "mooi"
+  - "contemplatie" → "nadenken" of weglaten
+  - "extraordinair" → "heel bijzonder"
+  - "geagiteerd" → "boos" of "opgewonden"
+
+### Stap 3: Optimaliseer zinsstructuur
+- Zorg voor afwisseling in zinslengte (6-12 woorden)
+- Gebruik niet meer dan één bijzin per zin
+- Plaats belangrijke informatie aan het begin van de zin
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 4,0-4,3)
+- Bereken percentage frequente woorden (doel: 78-82%)
+- Pas aan indien BILT buiten range 64-66 valt
+
+## Toegestane elementen AVI-M5
+
+### Woordstructuren
+- mkm, mkmm, mmkm, mmkmm
+- Tweelettergrepig met open/gesloten lettergrepen
+- Drielettergrepig (beperkt)
+- Woorden met -lijk, -heid, -ing
+- Voorvoegsels: be-, ge-, ver-, ont-
+
+### Zinstypen
+- Enkelvoudige zin
+- Samengestelde zin met nevenschikking
+- Zin met één bijzin
+- Vraagzin
+- Uitroep
+
+## Woordenlijst AVI-M5 (selectie)
+
+### Zelfstandige naamwoorden
+strand, bibliotheek, jungle, verhaal, avontuur, ontbijt, middageten, televisie, computer, fiets, station, vakantie, verjaardag
+
+### Werkwoorden
+rennen, springen, klimmen, zwemmen, fietsen, lezen, schrijven, tekenen, luisteren, vertellen, ontdekken, verzamelen
+
+### Bijvoeglijk naamwoorden
+bijzonder, fantastisch, geweldig, interessant, belangrijk, gevaarlijk, spannend, vervelend, grappig
+
+### Bijwoorden
+plotseling, eindelijk, meestal, eigenlijk, misschien, waarschijnlijk, natuurlijk
+
+## Verboden/te vermijden voor AVI-M5
+- Woorden met meer dan 4 lettergrepen (tenzij zeer frequent)
+- Passieve constructies (worden + voltooid deelwoord)
+- Abstracte begrippen zonder context
+- Lange ingebedde bijzinnen
+- Ambtelijk/formeel taalgebruik
+- Vaktermen zonder uitleg
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
+   - Aantal zinnen

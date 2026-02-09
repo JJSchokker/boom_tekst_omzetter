@@ -1,0 +1,152 @@
+# AVI-M4 Tekstconversie Prompt
+
+## Doelniveau
+AVI-M4 (Midden groep 4) - Voor lezers die de basis beheersen en klaar zijn voor meer structuur.
+
+## BILT-score range
+**Doelrange: 62 - 64**
+
+## Tekstkenmerken AVI-M4
+
+### Woordtypen (toegestaan)
+- Alle woorden uit M3 en E3
+- **Nieuw:** voorvoegsels be- en ge- (begin, geluk, bedoel, gemaakt)
+- **Nieuw:** open en gesloten lettergrepen (bomen, regen, water)
+- **Nieuw:** verkleinwoorden op -je (hondje, balletje, huisje)
+- **Nieuw:** meervouden op -en en -s (bomen, auto's)
+- **Nieuw:** stoffelijke bijvoeglijke naamwoorden (houten, stenen)
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 7-8 woorden
+- Nevenschikking met "en", "maar", "of"
+- Eenvoudige bijzinnen met "dat" en "want"
+- Directe rede met aanhalingstekens
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 82-86%**
+- Woorden uit top 2000 frequentielijst
+- Nieuwe structuren met bekende woorden
+
+### Tekstopmaak
+- Twee zinnen per regel mogelijk
+- Alinea's van 4-5 zinnen
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 62-64 betekent dit:
+- Gemiddelde woordlengte: ~3,6-4,0 letters
+- Percentage frequente woorden: ~82-86%
+
+## Voorbeeldteksten AVI-M4
+
+### Voorbeeld 1: "Het hondje"
+```
+Sanne heeft een klein hondje gekregen.
+Het hondje heet Pip en is heel lief.
+Sanne neemt Pip mee naar het park.
+Daar rent Pip achter een bal aan.
+"Kom terug!" roept Sanne.
+Maar Pip luistert niet goed.
+Gelukkig vindt Sanne haar hondje weer.
+```
+Kenmerken: gem. woordlengte 3,7 | %freq 85% | BILT ~62
+
+### Voorbeeld 2: "De regen"
+```
+Het begint hard te regenen.
+Tim staat bij het raam en kijkt naar buiten.
+De druppels tikken tegen het glas.
+"Ik wilde naar buiten," zegt Tim.
+Zijn moeder geeft hem een boek.
+"Dan lees je maar een verhaal," zegt ze.
+Tim vindt dat ook wel leuk.
+```
+Kenmerken: gem. woordlengte 3,8 | %freq 84% | BILT ~63
+
+### Voorbeeld 3: "In de tuin"
+```
+Opa werkt in de tuin.
+Hij graaft een kuil voor een nieuwe boom.
+Ik help hem met de schep.
+De boom is nog klein, maar wordt later groot.
+"Goed gedaan," zegt opa tegen mij.
+We maken de grond mooi aan.
+Dan geven we de boom veel water.
+```
+Kenmerken: gem. woordlengte 3,6 | %freq 86% | BILT ~62
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Identificeer woorden boven M4-niveau
+
+### Stap 2: Pas woordkeuze aan
+- Gebruik nu voorvoegsels be- en ge-
+- Verkleinwoorden mogen nu
+- Voorbeelden aanpassingen:
+  - "fantastisch" → "heel leuk" of "geweldig"
+  - "plotseling" → "opeens" of "ineens"
+  - "verschrikkelijk" → "heel erg"
+  - "automobiel" → "auto"
+
+### Stap 3: Structureer zinnen
+- Bouw zinnen op met "dat" of "want"
+- Voorbeeld: "Ik ben blij. Ik heb een hondje." → "Ik ben blij dat ik een hondje heb."
+- Houd zinnen onder 9 woorden
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 3,6-4,0)
+- Bereken percentage frequente woorden (doel: 82-86%)
+- Pas aan indien BILT buiten range 62-64 valt
+
+## Nieuw toegestaan t.o.v. E3
+
+### Woordstructuren
+- be- + stam (begin, bedoel, bewaar, betaal)
+- ge- + stam (geluk, gebruik, gevoel, gedaan)
+- stam + -je (hondje, boekje, bloempje)
+- Open lettergreep (bomen, regen, lopen, weten)
+- Tweelettergrepig met verschillende structuren
+
+### Voorbeeldwoorden nieuw
+beginnen, bedoelen, geloven, gebruiken, gelukkig
+hondje, katje, bloempje, zonnetje
+bomen, regen, water, neven, lopen, weten
+
+## Woordenlijst AVI-M4 (selectie)
+
+### Zelfstandige naamwoorden
+hondje, katje, boompje, bloempje, huisje, tuintje, zonnetje
+water, regen, bomen, bloemen, wolken, sterren
+
+### Werkwoorden
+beginnen, bedoelen, geloven, gebruiken, bewaren
+gekregen, gemaakt, gedaan, geweten, gelopen
+
+### Bijvoeglijk naamwoorden
+gelukkig, geweldig, belangrijk, gevaarlijk
+houten, stenen, gouden, zilveren
+
+### Bijwoorden
+opeens, ineens, gelukkig, eigenlijk, misschien
+
+## Verboden elementen voor AVI-M4
+- Voorvoegsels ver-, ont- (die komen bij E4)
+- Achtervoegsels -heid, -lijk (die komen bij E4)
+- Drielettergrepige woorden met complexe structuur
+- Lange bijzinnen
+- Meervoudig samengestelde zinnen
+- Passieve constructies
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte

@@ -1,0 +1,160 @@
+# AVI-E7 Tekstconversie Prompt
+
+## Doelniveau
+AVI-E7 (Eind groep 7) - Voor gevorderde lezers, één niveau onder AVI-Plus.
+
+## BILT-score range
+**Doelrange: 74 - 75**
+
+## Tekstkenmerken AVI-E7
+
+### Woordtypen
+- **Alle woordtypen zijn toegestaan**
+- Uitsluitend de BILT-score is bepalend
+- Geavanceerd vocabulaire
+- Langere en complexere woorden
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 12-15 woorden
+- Geen beperkingen op zinskenmerken
+- Complexe zinnen met ingebedde bijzinnen
+- Variatie in register en stijl
+- Passieve constructies toegestaan
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 69-74%**
+- Geavanceerd vocabulaire
+- Abstractere begrippen mogelijk
+
+### Tekstopmaak
+- Volledige alinea's
+- Alinea's van 6-10 zinnen
+- Alle teksttypen inclusief betogend
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 74-75 betekent dit:
+- Gemiddelde woordlengte: ~4,7-5,0 letters
+- Percentage frequente woorden: ~69-74%
+
+## Voorbeeldteksten AVI-E7
+
+### Voorbeeld 1: "De aalscholver"
+```
+Mik en Puk fronsen hun wenkbrauwen geïntrigeerd bij het horen van de naam.
+"Dat is een aquatische vogel," verduidelijkt Sas geamuseerd.
+De aalscholver leeft voornamelijk van vis die hij onder water vangt.
+Met zijn gestroomlijnde lichaam kan hij uitstekend duiken.
+Deze vogels worden vaak gezien bij meren en aan de kust.
+Tot aan de eindbestemming genieten ze gezamenlijk van het uitzicht.
+Het lijkt wel alsof ze door een schilderij navigeren.
+```
+Kenmerken: gem. woordlengte 4,8 | %freq 71% | BILT ~74
+
+### Voorbeeld 2: "De wetenschapper"
+```
+Professor De Vries doet al jarenlang onderzoek naar het heelal.
+Ze bestudeert de bewegingen van sterren en planeten nauwkeurig.
+Haar ontdekkingen hebben bijgedragen aan ons begrip van de kosmos.
+Onlangs publiceerde ze een baanbrekend artikel in een wetenschappelijk tijdschrift.
+Collega's wereldwijd reageerden enthousiast op haar bevindingen.
+De universiteit organiseerde een speciale lezing ter ere van haar werk.
+Honderden studenten kwamen luisteren naar haar fascinerende verhaal.
+Ze hoopt dat haar onderzoek jonge mensen zal inspireren.
+```
+Kenmerken: gem. woordlengte 4,9 | %freq 70% | BILT ~75
+
+### Voorbeeld 3: "Het debat"
+```
+De leerlingen van groep acht houden een debat over sociale media.
+Sommigen betogen dat het schadelijk is voor de concentratie.
+Anderen benadrukken juist de voordelen van online communicatie.
+De discussie verloopt geanimeerd maar respectvol.
+Elk argument wordt zorgvuldig overwogen door de tegenstanders.
+De jury let op de kwaliteit van de onderbouwing.
+Uiteindelijk wint het team dat de meest overtuigende punten maakte.
+Na afloop evalueren ze samen wat er goed ging en wat beter kon.
+```
+Kenmerken: gem. woordlengte 4,8 | %freq 72% | BILT ~74
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Bepaal huidige BILT-score
+- Identificeer mogelijkheden voor verrijking
+
+### Stap 2: Verhoog complexiteit
+- Gebruik geavanceerder vocabulaire
+- Voeg nuance en precisie toe
+- Voorbeelden:
+  - "zei" → "verduidelijkte", "betoogde", "benadrukte"
+  - "kijken" → "bestuderen", "observeren"
+  - "belangrijk" → "baanbrekend", "significant"
+  - "leuk" → "fascinerend", "boeiend"
+
+### Stap 3: Structureer complexer
+- Bouw informatierijke zinnen
+- Gebruik variatie in zinsopbouw
+- Voorbeeld: "Ze ontdekte iets. Het was belangrijk." → "Haar ontdekkingen hebben bijgedragen aan ons begrip van de kosmos."
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 4,7-5,0)
+- Bereken percentage frequente woorden (doel: 69-74%)
+- Pas aan indien BILT buiten range 74-75 valt
+
+## Woordkeuze-strategie E7
+
+### Balanceren BILT-score
+De range is smal (74-75), dus precisie is belangrijk.
+
+Als BILT te laag (< 74):
+- Vervang alledaagse woorden door geavanceerde synoniemen
+- Gebruik langere woordvormen
+- Voorbeelden: "boek" → "publicatie", "slim" → "intelligent"
+
+Als BILT te hoog (> 75):
+- Vervang zeer complexe woorden door iets eenvoudiger
+- Balanceer met meer frequente woorden
+- Let op: niet te ver zakken naar M7-niveau
+
+## Woordenlijst AVI-E7 (selectie)
+
+### Zelfstandige naamwoorden
+wenkbrauw, aalscholver, aquatisch, eindbestemming
+professor, onderzoek, ontdekking, publicatie
+heelal, kosmos, universiteit, lezing
+debat, concentratie, communicatie, argument
+
+### Werkwoorden
+fronsen, verduidelijken, navigeren, bestuderen
+publiceren, bijdragen, inspireren, organiseren
+betogen, benadrukken, overwegen, evalueren
+
+### Bijvoeglijk naamwoorden
+geïntrigeerd, geamuseerd, gestroomlijnd, aquatisch
+baanbrekend, wetenschappelijk, fascinerend
+geanimeerd, respectvol, overtuigend
+
+### Bijwoorden
+voornamelijk, uitstekend, nauwkeurig, onlangs
+enthousiast, uiteindelijk, zorgvuldig
+
+## Aandachtspunten E7
+- Smalle BILT-range (74-75) vereist precisie
+- Balanceer tussen M7 en Plus
+- Geavanceerd maar nog toegankelijk
+- Varieer in zinslengte voor leesbaarheid
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
+   - Aantal zinnen

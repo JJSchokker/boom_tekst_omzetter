@@ -1,0 +1,156 @@
+# AVI-E4 Tekstconversie Prompt
+
+## Doelniveau
+AVI-E4 (Eind groep 4) - Voor lezers die klaar zijn voor uitgebreidere woordvorming.
+
+## BILT-score range
+**Doelrange: 64 - 66**
+
+## Tekstkenmerken AVI-E4
+
+### Woordtypen (toegestaan)
+- Alle woorden uit M3, E3 en M4
+- **Nieuw:** voorvoegsels ver- en ont- (vertellen, ontdekken, vergeten)
+- **Nieuw:** achtervoegsels -lijk en -ig (eerlijk, vrolijk, moeilijk, rustig)
+- **Nieuw:** drielettergrepige woorden (vakantie, avontuur, verhalen)
+- **Nieuw:** eenvoudige samenstellingen (voetbal, speeltuin, schooltas)
+- **Nieuw:** woorden op -eer, -eur, -oor (deur, vuur, muur, peer)
+
+### Zinskenmerken
+- Gemiddelde zinslengte: 7-9 woorden
+- Nevenschikking volledig (en, maar, of, want)
+- Bijzinnen met "dat", "want", "omdat"
+- Betrekkelijke bijzinnen met "die" en "dat" (eenvoudig)
+- Vraagzinnen met vraagwoord
+
+### Frequentie-eisen
+- **Percentage frequente woorden: 80-84%**
+- Woorden uit top 2500 frequentielijst
+- Samenstellingen van frequente woorden
+
+### Tekstopmaak
+- Normale alinea-indeling
+- Alinea's van 4-6 zinnen
+
+## Formule-parameters
+De BILT-formule: BILT = 43,21 − 0,23 × %freq + 8,63 × gem_wl
+
+Voor BILT 64-66 betekent dit:
+- Gemiddelde woordlengte: ~3,9-4,2 letters
+- Percentage frequente woorden: ~80-84%
+
+## Voorbeeldteksten AVI-E4
+
+### Voorbeeld 1: "De speeltuin"
+```
+Lisa gaat met haar vader naar de speeltuin.
+Ze rent meteen naar de grote glijbaan.
+"Wacht even," roept vader. "Ik kom eraan!"
+Lisa klimt omhoog en glijdt naar beneden.
+Dat is vrolijk en spannend tegelijk.
+Daarna gaat ze op de schommel.
+Ze vindt het heerlijk om hoog te zwaaien.
+```
+Kenmerken: gem. woordlengte 4,0 | %freq 82% | BILT ~65
+
+### Voorbeeld 2: "Het avontuur"
+```
+Tim en Sanne ontdekken een geheim pad in het bos.
+"Waar zou dat naartoe gaan?" vraagt Sanne.
+"Laten we het uitzoeken," zegt Tim eerlijk.
+Ze lopen voorzichtig verder over het pad.
+Na een tijdje komen ze bij een oud huisje.
+Het ziet er verlaten uit, maar ook spannend.
+"Dit is een echt avontuur!" roept Tim blij.
+```
+Kenmerken: gem. woordlengte 4,1 | %freq 81% | BILT ~65
+
+### Voorbeeld 3: "Mijn schooltas"
+```
+Ik heb een nieuwe schooltas gekregen.
+Hij is blauw met gele sterren erop.
+Er passen veel boeken en schriften in.
+Mijn moeder vindt hem erg mooi.
+"Vergeet hem niet mee te nemen," zegt ze.
+Ik ben er heel blij mee.
+Op school zijn mijn vrienden ook nieuwsgierig.
+```
+Kenmerken: gem. woordlengte 3,9 | %freq 83% | BILT ~64
+
+## Conversie-instructies
+
+### Stap 1: Analyseer de brontekst
+- Tel woorden, zinnen en lettergrepen
+- Identificeer woorden boven E4-niveau
+
+### Stap 2: Pas woordkeuze aan
+- Gebruik nu ver- en ont- voorvoegsels
+- Gebruik -lijk en -ig achtervoegsels
+- Voorbeelden aanpassingen:
+  - "spectaculair" → "heel bijzonder" of "spannend"
+  - "observeren" → "bekijken" of "zien"
+  - "transformeren" → "veranderen"
+  - "absoluut" → "echt" of "zeker"
+
+### Stap 3: Structureer zinnen
+- Gebruik bijzinnen met "omdat", "die", "dat"
+- Voorbeeld: "De jongen rent. Hij is bang." → "De jongen die bang is, rent weg."
+- Houd zinnen onder 10 woorden
+
+### Stap 4: Controleer BILT-score
+- Bereken gemiddelde woordlengte (doel: 3,9-4,2)
+- Bereken percentage frequente woorden (doel: 80-84%)
+- Pas aan indien BILT buiten range 64-66 valt
+
+## Nieuw toegestaan t.o.v. M4
+
+### Woordstructuren
+- ver- + stam (vertellen, vergeten, verliezen, verrassen)
+- ont- + stam (ontdekken, onthouden, ontsnappen)
+- stam + -lijk (eerlijk, vrolijk, moeilijk, duidelijk)
+- stam + -ig (rustig, handig, grappig, moedig)
+- Samenstellingen (voetbal, speeltuin, schooltas)
+- Drielettergrepig (vakantie, avontuur)
+
+### Voorbeeldwoorden nieuw
+vertellen, vergeten, verliezen, verrassen, verdwalen
+ontdekken, onthouden, ontsnappen, ontwaken
+eerlijk, vrolijk, moeilijk, duidelijk, heerlijk
+rustig, handig, grappig, moedig, nieuwsgierig
+voetbal, speeltuin, schooltas, huisdier
+
+## Woordenlijst AVI-E4 (selectie)
+
+### Zelfstandige naamwoorden
+avontuur, vakantie, verhaal, geheim, speeltuin, schooltas, huisdier
+glijbaan, schommel, fietspad, voetbalveld
+
+### Werkwoorden
+vertellen, vergeten, ontdekken, onthouden, verrassen
+uitzoeken, verdwalen, ontsnappen, verliezen
+
+### Bijvoeglijk naamwoorden
+eerlijk, vrolijk, moeilijk, duidelijk, heerlijk, vreselijk
+rustig, handig, grappig, moedig, nieuwsgierig, verlaten
+
+### Bijwoorden
+voorzichtig, natuurlijk, eigenlijk, eindelijk, plotseling
+
+## Verboden elementen voor AVI-E4
+- Woorden met -tie als /si/ (die komen bij M5)
+- Woorden met x als /ks/ (die komen bij M5)
+- Leenwoorden met é, è, eau (die komen bij E5)
+- Complexe samenstellingen (meer dan 2 delen)
+- Lange ingebedde bijzinnen
+- Passieve constructies
+
+## Output format
+
+Lever de geconverteerde tekst aan met:
+1. De tekst zelf (normale alinea-indeling)
+2. Tekststatistieken:
+   - Aantal woorden
+   - Gemiddelde woordlengte
+   - Percentage frequente woorden
+   - Berekende BILT-score
+   - Gemiddelde zinslengte
